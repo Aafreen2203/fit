@@ -19,6 +19,8 @@ export default {
       fontFamily: {
         headline: ['Playfair Display', 'serif'],
         body: ['PT Sans', 'sans-serif'],
+        heading: [ 'Parisienne', 'cursive' ], // script font for headings
+        body: [ 'Merriweather', 'serif' ], // elegant serif for body
       },
       colors: {
         background: 'hsl(var(--background))',
