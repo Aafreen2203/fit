@@ -270,7 +270,7 @@ export function TrendIdentifier() {
         </CardHeader>
 
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mx-8 mb-8 bg-[#F5F1EB] border border-[#D4C4B0]/30">
+          <TabsList className="grid w-50   grid-cols-2 mx-8 mb-8 bg-[#F5F1EB] border border-[#D4C4B0]/30">
             <TabsTrigger
               value="upload"
               className="data-[state=active]:bg-[#8B6F47] data-[state=active]:text-white text-[#8B6F47] font-light"
@@ -523,7 +523,7 @@ export function TrendIdentifier() {
                           onClick={() => window.open(item.link, "_blank")}
                         >
                           <ShoppingBag className="h-4 w-4 mr-1" />
-                          Shop Now
+                      
                         </Button>
                       </div>
                     </CardFooter>
